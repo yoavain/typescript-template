@@ -25,7 +25,7 @@
     "pretsc": "rimraf dist",
     "tsc": "tsc --build tsconfig.build.json",
     "add-shebang": "add-shebang",
-    "start": "ts-node src/index.ts",
+    "start": "node -r ts-node/register/transpile-only src/index.ts",
     "start:help": "npm run start -- --help",
     "package": "npm pack",
     "pre-commit": "lint-staged"
