@@ -3,8 +3,7 @@ import type { Config } from "@jest/types";
 const config: Config.InitialOptions = {
     transform: {
         "^.+\\.ts$": ["ts-jest", {
-            tsconfig: "tsconfig.json",
-            isolatedModules: true
+            tsconfig: "tsconfig.json"
         }]
     },
     testEnvironment: "node",

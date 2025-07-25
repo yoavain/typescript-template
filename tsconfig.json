@@ -1,12 +1,13 @@
 {
-  "extends": "@tsconfig/node20",
+  "extends": "@tsconfig/node22",
   "compilerOptions": {
     "strict": false,
     "esModuleInterop": true,
     "allowJs": true,
     "target": "ES2024",
     "noEmit": true,
-    "verbatimModuleSyntax": false
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true
   },
   "include": ["./src/**/*", "./test/**/*", "jest.config.ts"]
 }
