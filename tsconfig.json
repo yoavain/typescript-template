@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node20",
+  "compilerOptions": {
+    "strict": false,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "target": "es6",
+    "noEmit": true,
+    "verbatimModuleSyntax": false
+  },
+  "include": ["./src/**/*", "./test/**/*", "jest.config.ts"]
+}
