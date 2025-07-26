@@ -93,8 +93,7 @@ export default [...fixupConfigRules(compat.extends(
         "n/no-missing-require": [
             "error",
             {
-                "tryExtensions": [".ts", ".js", ".d.ts", ".json", ".node"],
-                "allowModules": ["clean-webpack-plugin", "copy-webpack-plugin"]
+                "tryExtensions": [".ts", ".js", ".d.ts", ".json", ".node"]
             }
         ],
         "n/no-missing-import": 0,
